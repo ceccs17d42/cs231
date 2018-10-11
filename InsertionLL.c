@@ -48,6 +48,18 @@ void printlist(struct Node *node)
 		node=node->next;
 	}
 }
+int search(struct Node *head,int x)
+{
+	struct Node *current=head;
+	int count = 0;
+	while(current != NULL)
+	{
+		if( current->data ==x)
+			return count;
+		count++;
+		current=current->next;
+	}
+}
 int main()
 {
 	struct Node *head = NULL;
@@ -73,11 +85,11 @@ int main()
 			}
 			case 2:
 			{	
-				int key;
-				printf("Enter the key to insert:");
-				scanf("%d",&key);
-				printf
-				insertAfter(head->next,key);
+				int key,x,n;
+				printf("Enter the key to insert and after which element:");
+				scanf("%d %d",&key,&x);
+				n=search(head,x);
+				insertAfter(n,key);
 				printf("Created Linked List:");
 				printlist(head);
 				break;
