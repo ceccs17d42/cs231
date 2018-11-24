@@ -121,7 +121,7 @@ int deleteNode(int data) {
   }
   return (0);
 }
-int printAll() {
+int printlist() {
   struct node* currentNode = HEADER->next;
   printf("NULL<-HEADER<->");
   while (currentNode->next != NULL) {
@@ -154,6 +154,7 @@ int showMenu() {
         printf("Enter new data : ");
         scanf("%d", &data);
         insertNodeFront(data);
+	printlist();
         break;
       case '2': 
         printf("Enter new data : ");
@@ -161,6 +162,7 @@ int showMenu() {
         printf("Enter data of the node before which new node is to be created : ");
         scanf("%d", &nextData);
         insertNodeBefore(data, nextData);
+	printlist();
         break;
       case '3': 
         printf("Enter new data : ");
@@ -168,14 +170,16 @@ int showMenu() {
         printf("Enter data of the node after which new node is to be created : ");
         scanf("%d", &previousData);
         insertNodeAfter(data, previousData);
+	printlist();
         break;
       case '4':
         printf("Enter new data : ");
         scanf("%d", &data);
         insertNodeBack(data);
+	printlist();
         break;
       case '5':
-        printAll();
+        printlist();
         break;
       case '6':
         deleteFirstNode();
@@ -184,6 +188,7 @@ int showMenu() {
         printf("Enter data of the node to be deleted : ");
         scanf("%d", &data);
         deleteNode(data);
+	printlist();
         break;
       case '8':
         deleteLastNode();

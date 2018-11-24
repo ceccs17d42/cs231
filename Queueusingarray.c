@@ -57,8 +57,7 @@ void main()
                         {
                             printf("%d -> ",queue[i]);
                         }
-                        printf("\nFront: %d",front);
-                        printf("\nEnd: %d",end);
+                      
                     }
         } 
     }while(choice==1 || choice==2 || choice==3);

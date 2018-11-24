@@ -32,7 +32,7 @@ void main()
             else
             {
                 printf("popped out: %d",arr[top1]);
-                arr[top1]=NULL;
+                arr[top1]='\0';
                 top1-=1;
             }
         }
@@ -64,7 +64,7 @@ void main()
             else
             {
                 printf("popped out: %d",arr[top2]);
-                arr[top2]=NULL;
+                arr[top2]='\0';
                 top2+=1;
             }
         }

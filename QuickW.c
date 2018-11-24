@@ -5,7 +5,7 @@ void quicksort(int num[25],int first,int last)
 	if(first<last)
 	{
 		pivot = first;
-		i = first;
+		i = first; 
 		j = last;
 		while(i<j){
 			while(num[i]<=num[pivot] &&i<last)
@@ -18,13 +18,14 @@ void quicksort(int num[25],int first,int last)
 				num[i] = num[j];
 				num[j] = temp;
 			}
-		}
-	}
-	temp = num[pivot];
-	num[pivot] = num[j];
-	num[j] = temp;
-	quicksort(num,first,j-1);
-	quicksort(num,j+1,last);
+		}	
+		
+	
+		temp = num[pivot];
+		num[pivot] = num[j];
+		num[j] = temp;
+		quicksort(num,first,j-1);
+		quicksort(num,j+1,last);
 	}
 }
 int main()
@@ -38,6 +39,6 @@ int main()
 	quicksort(num,0,count-1);
 	printf("ORDERED:");
 	for(i=0;i<count;i++)
-		printf("%d",num[i]);
+		printf("%d ",num[i]);
 	return 0;
 }

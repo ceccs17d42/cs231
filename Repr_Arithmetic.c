@@ -16,7 +16,7 @@ void main()
     int i;
 
     head_op=(struct node*)malloc(sizeof(struct node));
-    head_op->value=NULL;
+    head_op->value='\0';
     head_op->link=NULL;
     top_op=head_op;
 
@@ -33,7 +33,7 @@ void main()
     temp=top_op;
     while(temp!=head_op)
     {
-        printf(" %c ->",temp->value);
+        printf(" %c ",temp->value);
         temp=temp->link;
     }    
 }

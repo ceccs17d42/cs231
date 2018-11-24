@@ -5,34 +5,12 @@ struct poly
 	 int expo;
  } p1[10],p2[10],p3[10];
 
- int readpoly(struct poly []);
- int addpoly(struct poly [],struct poly [],int ,int ,struct poly []);
- void displaypoly( struct poly [],int terms);
-
- int main()
- {
-	int t1,t2,t3;
-	t1=readPoly(p1);
-	printf(" \n First polynomial : ");
-	displayPoly(p1,t1);
-	t2=readPoly(p2);
-	printf(" \n Second polynomial : ");
-	displayPoly(p2,t2);
-	t3=addPoly(p1,p2,t1,t2,p3);
-	printf(" \nResultant polynomial after addition : ");
-	displayPoly(p3,t3);
-	printf("\n");
-
-	return 0;
- }
-
- int readPoly(struct poly p[10])
+int readPoly(struct poly p[10])
  {
 	int t1,i;
 
-	printf("\n Enter the total number of terms in the polynomial:")
+	printf("\n Enter the total number of terms in the polynomial:");
 	scanf("%d",&t1);
-
 	printf("\n Enter the COEFFICIENT and EXPONENT in DESCENDING ORDER\n");
 	for(i=0;i<t1;i++)
 	{
@@ -44,7 +22,7 @@ struct poly
 	return(t1);
  }
 
- int addPoly(struct poly p1[10],struct poly p2[10],int t1,int t2,struct poly p3[10])
+int addPoly(struct poly p1[10],struct poly p2[10],int t1,int t2,struct poly p3[10])
  {
 	int i=0,j=0,k=0;
 	while(i<t1 && j<t2)
@@ -94,8 +72,23 @@ struct poly
  void displayPoly(struct poly p[10],int term)
  {
 	int k;
-
 	for(k=0;k<term-1;k++)
 	printf("%d(x^%d)+",p[k].coeff,p[k].expo);
 	printf("%d(x^%d)",p[term-1].coeff,p[term-1].expo);
 }
+ int main()
+ {
+	int t1,t2,t3;
+	t1=readPoly(p1);
+	printf(" \n First polynomial : ");
+	displayPoly(p1,t1);
+	t2=readPoly(p2);
+	printf(" \n Second polynomial : ");
+	displayPoly(p2,t2);
+	t3=addPoly(p1,p2,t1,t2,p3);
+	printf(" \nResultant polynomial after addition : ");
+	displayPoly(p3,t3);
+	printf("\n");
+
+	return 0;
+ }

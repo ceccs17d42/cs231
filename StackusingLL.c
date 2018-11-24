@@ -1,6 +1,5 @@
-include<stdio.h>
-#include<conio.h>
-
+#include<stdio.h>
+#include<stdlib.h>
 struct Node
 {
    int data;
@@ -14,7 +13,6 @@ void display();
 void main()
 {
    int choice, value;
-   clrscr();
    printf("\n:: Stack using Linked List ::\n");
    while(1){
       printf("\n****** MENU ******\n");
@@ -25,6 +23,7 @@ void main()
 	 case 1: printf("Enter the value to be insert: ");
 		 scanf("%d", &value);
 		 push(value);
+         display();
 		 break;
 	 case 2: pop(); break;
 	 case 3: display(); break;
@@ -69,4 +68,3 @@ void display()
       printf("%d--->NULL",temp->data);
    }
 }    
-    

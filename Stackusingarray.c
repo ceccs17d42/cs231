@@ -1,4 +1,6 @@
+
 #include <stdio.h>
+#include<stdlib.h>
 
 int stack[100], n=100, top;
 
@@ -39,20 +41,23 @@ int main() {
 	int data;
 	do {
 		printf("\n\n\tStack Using array\n");
-		printf("1. Push\n2. Pop\n3. Display\n4. Exit\nEnter your choice : ");
+		printf("1. Push\n2. Pop\n3. Display 4.Exit\nEnter your choice : ");
 		scanf(" %c", &ans);
 		switch (ans) {
 			case '1':
 				printf("Enter data to be pushed : ");
 				scanf(" %d", &data);
 				push(data);
+                display();
 				break;
 			case '2':
 				pop();
 				break;
-			case '3':
-				display();
-				break;
+            case '3':
+                display();
+                break;
+            case '4':
+                exit(0);
 			default:
 				printf("Invalid choice.\n");
 		}
