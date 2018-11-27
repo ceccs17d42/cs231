@@ -42,3 +42,7 @@ int main()
 		printf("%d ",num[i]);
 	return 0;
 }
+OUTPUT:
+How many elements?5
+Enter 5 elements:4 7 2 9 1
+ORDERED:1 2 4 7 9 
