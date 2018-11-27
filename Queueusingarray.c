@@ -63,3 +63,40 @@ void main()
     }while(choice==1 || choice==2 || choice==3);
 
 }
+OUTPUT:
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice:1 Enter the value of element:33
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice:1 Enter the value of element: 12
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice:1 Enter the value of element:87 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 33 -> 12 -> 87 -> 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: DeletedDD 33
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 4
