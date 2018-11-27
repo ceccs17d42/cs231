@@ -116,3 +116,78 @@ break;
 }
 }
 }
+
+OUTPUT:
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+65
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+32
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+8
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+4
+Queue is -->> 65 32 8 
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+2
+Number poped from queue is 65
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+3
+Size of queue is 2
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+4
+Queue is -->> 32 8 
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+0
