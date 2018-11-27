@@ -38,3 +38,8 @@ int main()
  
    return 0;
 }
+OUTPUT:
+Enter number of elements 5
+Enter 5 integers 9 2 8 4 1
+Sorted list in ascending order:
+1 2 4 8 9 
