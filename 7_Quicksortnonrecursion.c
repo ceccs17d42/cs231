@@ -53,3 +53,7 @@ int main(){
 	printf("\n");
 	return 0;
 }
+OUTPUT:
+enter the no of elements:5
+enter the elements 3 6 2 5 9
+2 3 5 6 9 
