@@ -82,3 +82,88 @@ void main()
     }while(cho==1 || cho==2 || cho==3 || cho==4 ||cho==5 || cho==6);
     
 }
+OUTPUT:
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 1
+enter the element: 43
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 1
+enter the element: 34
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 4
+enter the element: 65
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 4
+enter the element: 98
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 3
+elements: 34 |->43 |->NULL
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 6
+elements: 98 |->65 |->NULL
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 2
+popped out: 34
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 5
+popped out: 98
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 7
