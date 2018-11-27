@@ -146,3 +146,33 @@ void main()
     printf("0\n");
 
 }
+
+OUTPUT:
+First Polynomial 
+Enter coefficient: 4
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 5
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 2
+
+
+Second polynomial 
+Enter coefficient: 2
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 3
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 2
+F(p) = 4 p2 + 5 p2 + 0
+F(q) = 2 q2 + 3 q2 + 0
+F(r) = 45 r4 + 0
+
