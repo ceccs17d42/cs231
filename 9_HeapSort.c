@@ -54,3 +54,19 @@ void main()
     for (i = 0; i < n; i++)
 	printf("%d \n", heap[i]);
 }
+
+OUTPUT:
+ Enter number of elements :5
+
+ Enter the elements : 2 7 45 12 87
+Heap array : 87 
+ 45 
+ 7 
+ 2 
+ 12 
+ 
+ Sorted array 2 
+7 
+12 
+45 
+87 
