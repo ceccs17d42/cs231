@@ -46,3 +46,19 @@ void main()
         printf("0\n");
     }
 }
+
+OUTPUT:
+Enter coefficient: 3
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 6
+Enter exponent: 1
+1. Add more elements
+2. Continue
+Enter choice: 2
+1. Display polynomial
+2. Exit
+Enter choice: 1
+F(p) = 3 p2 + 6 p1 + 0
