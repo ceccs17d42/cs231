@@ -152,3 +152,93 @@ int main()
     }
     return 0; 
 } 
+
+OUTPUT:
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+1
+Enter new data:30
+	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+1
+Enter new data:20
+	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+1
+Enter new data:40
+	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+1
+Enter new data:70
+	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+1
+Enter new data:60
+	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+1
+Enter new data:80
+	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+5
+Inorder traversal of the given tree 
+20 30 40 60 70 80 	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+2
+Data to delete:40
+	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+5
+Inorder traversal of the given tree 
+20 30 60 70 80 	
+Binary Search Tree
+1.Insert
+2.Delete
+3.Search
+4.Exit
+5.Print
+
