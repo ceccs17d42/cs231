@@ -43,3 +43,8 @@ int main()
 		printf("%d ",a[i]);
 	return 0;	
 }
+
+OUTPUT:
+Enter number of elements:5
+Enter elements2 7 8 5 1
+List after sorting:1 2 5 7 8 
