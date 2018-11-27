@@ -53,3 +53,19 @@ int main()
 	printf("\n");
 return 0;
 }
+
+OUTPUT:
+Enter the number of elements : 5 
+Enter element 1 :2 
+Enter element 2 :5
+Enter element 3 :1
+Enter element 4 :7
+Enter element 5 :8
+Unsorted list is : 2 5 1 7 8 
+Size=1 
+Elements are : 2 5 1 7 8 
+Size=2 
+Elements are : 1 2 5 7 8 
+Size=4 
+Elements are : 1 2 5 7 8 Sorted list is :
+1 2 5 7 8 
