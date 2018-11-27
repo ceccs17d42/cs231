@@ -210,3 +210,195 @@ int main() {
 	showMenu();
 	return (0);
 }
+
+OUTPUT:
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 1
+
+Enter new data : 54
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 1
+
+Enter new data : 33
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 2
+
+Enter new data : 99
+Enter data of the node before which new node is to be created : 54
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 3
+
+Enter new data : 7 
+Enter data of the node after which new node is to be created : 99
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 4
+
+Enter new data : 2
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 5
+
+HEADER<->33<->99<->7<->54<->2->HEADER
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 6
+
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 8
+
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 7
+
+Enter data of the node to be deleted : 7
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 5
+
+HEADER<->99<->54->HEADER
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 9
+
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 5
+
+Empty
+
