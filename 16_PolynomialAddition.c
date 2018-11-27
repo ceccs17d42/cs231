@@ -92,3 +92,28 @@ int addPoly(struct poly p1[10],struct poly p2[10],int t1,int t2,struct poly p3[1
 
 	return 0;
  }
+
+OUTPUT:
+Enter the total number of terms in the polynomial:3
+
+ Enter the COEFFICIENT and EXPONENT in DESCENDING ORDER
+   Enter the Coefficient(1): 2
+      Enter the exponent(1): 2
+   Enter the Coefficient(2): 6
+      Enter the exponent(2): 1
+   Enter the Coefficient(3): 7
+      Enter the exponent(3): 0
+ 
+ First polynomial : 2(x^2)+6(x^1)+7(x^0)
+ Enter the total number of terms in the polynomial:3
+
+ Enter the COEFFICIENT and EXPONENT in DESCENDING ORDER
+   Enter the Coefficient(1): 4
+      Enter the exponent(1): 2
+   Enter the Coefficient(2): 1
+      Enter the exponent(2): 1
+   Enter the Coefficient(3): 7
+      Enter the exponent(3): 0
+ 
+ Second polynomial : 4(x^2)+1(x^1)+7(x^0) 
+Resultant polynomial after addition : 6(x^2)+7(x^1)+14(x^0)
