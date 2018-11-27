@@ -64,3 +64,48 @@ void main()
         }
     }while(cho==1 || cho==2 || cho==3);
 }
+OUTPUT:
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice:1 Enter element:43 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice:1 Enter element:33 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice:1 Enter element:11 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 43 <-33 <-11 <- NULL
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 
+DELETED 43 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 
+DELETED 33 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 
+DELETED 11 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 
+Queue is EMPTY
