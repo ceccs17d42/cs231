@@ -32,3 +32,6 @@ int main() {
 		printf("Element not found\n");
 	}
 }
+OUTPUT:
+Enter number of elements :5 Enter elements:1 8 6 4 3
+Enter element to search :8 Element found at position 2
