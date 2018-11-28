@@ -1,3 +1,10 @@
+/*
+ * 06
+ * Merge Sort: Recursive
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
+
 #include<stdio.h>
 
 void merge(int a[11],int low, int mid, int high)
