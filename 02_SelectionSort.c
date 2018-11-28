@@ -1,4 +1,9 @@
-
+/*
+ * 02
+ * Selection Sort
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 
 #include <stdio.h>
  
