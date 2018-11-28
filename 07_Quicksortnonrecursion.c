@@ -1,3 +1,10 @@
+/*
+ * 07
+ * Quick Sort : Non recursion
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
+
 #include<stdio.h>
 
 int quick(int a[],int l,int h){
