@@ -1,3 +1,9 @@
+/*
+ * 26
+ * Queue using Array
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 #include<stdlib.h>
 
