@@ -163,3 +163,56 @@ int main()
 	ShowMenu();
 	return (0);
 }
+
+OUTPUT:
+
+	LINKED LIST
+1. Insert at Front
+2. Insert after
+3. Insert at End
+4. Delete node
+5. Delete all
+0. Exit
+Enter your choice :1 Enter the data to insert:3
+Linked List
+Header->3->
+	LINKED LIST
+1. Insert at Front
+2. Insert after
+3. Insert at End
+4. Delete node
+5. Delete all
+0. Exit
+Enter your choice :2 Enter the data after which node is to be created and the data to be inserted:3 Enter the new data: 4
+
+Linked List
+Header->3->4->
+	LINKED LIST
+1. Insert at Front
+2. Insert after
+3. Insert at End
+4. Delete node
+5. Delete all
+0. Exit
+Enter your choice :3 Enter the data to insert:5
+Linked List
+Header->3->4->5->
+	LINKED LIST
+1. Insert at Front
+2. Insert after
+3. Insert at End
+4. Delete node
+5. Delete all
+0. Exit
+Enter your choice : 4 Enter data to be deleted :4 
+Linked List
+Header->3->5->
+
+	LINKED LIST
+1. Insert at Front
+2. Insert after
+3. Insert at End
+4. Delete node
+5. Delete all
+0. Exit
+Enter your choice : 0
