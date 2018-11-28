@@ -1,3 +1,9 @@
+/*
+ * 16
+ * Polynomial Addition
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 struct poly
  {
