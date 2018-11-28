@@ -1,3 +1,9 @@
+/*
+ * 03
+ * Insertion Sort
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include <stdio.h>
 
 int insertionSort(int array[], int size) {
