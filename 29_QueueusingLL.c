@@ -1,3 +1,9 @@
+/*
+ * 29
+ * Queue using Linked List
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 #include<stdlib.h>
 
