@@ -1,3 +1,9 @@
+/*
+ * 18
+ * Stack using array
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 #include<stdlib.h>
 struct Node
