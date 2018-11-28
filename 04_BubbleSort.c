@@ -43,3 +43,9 @@ int main()
 	print(A,n);	
 	return 0;
 }
+OUTPUT:
+Enter number of elements:5
+
+Enter elements:23 12 98 66 2
+
+Sorted Array:2 12 23 66 98
