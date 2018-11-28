@@ -1,4 +1,9 @@
-// C program to demonstrate delete operation in binary search tree 
+/*
+ * 41
+ * Binary Search Tree using Linked List
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */// C program to demonstrate delete operation in binary search tree 
 #include<stdio.h> 
 #include<stdlib.h> 
   
