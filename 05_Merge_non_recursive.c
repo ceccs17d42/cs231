@@ -1,3 +1,10 @@
+/*
+ * 05
+ * Merge: Non recursion
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
+
 #include<stdio.h>
 #define MAX 30
 int main()
