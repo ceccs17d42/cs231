@@ -1,3 +1,9 @@
+/*
+ * 15
+ * Polynomial Representation
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 #include<stdlib.h>
 
