@@ -1,3 +1,9 @@
+/*
+ * 28
+ * Circular Queue using array
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 #include<string.h>
 
