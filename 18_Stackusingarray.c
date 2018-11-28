@@ -4,15 +4,7 @@
  * Name: Ritty Thomas
  * Roll no: 42
  */
-#include<stdio.h>
-#include<stdlib.h>
-struct Node
-{
-   int data;
-   struct Node *next;
-}*top = NULL;
-
-void #include <stdio.h>
+ #include <stdio.h>
 
 int stack[100], n=100, top;
 
