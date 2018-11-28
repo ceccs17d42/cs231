@@ -105,7 +105,20 @@ struct node* deleteNode(struct node* root, int key)
     } 
     return root; 
 } 
-  
+int search(struct node* root,int key )
+{
+    if (root->key == key || root == NULL)
+        return 1;
+    
+        else if (root->key > key)
+        {
+            return search(root->left,key);
+        }
+        else if(root->key < key)
+            return search(root->right,key);
+    else if (root != NULL)
+        return 0;
+}
 // Driver Program to test above functions 
 int main() 
 { 
@@ -140,6 +153,15 @@ int main()
 				root=deleteNode(root,key);
 				
 				break;
+            		case 3:
+               			 printf("Enter data to be searched:");
+                		 scanf("%d",&key);
+                		 int k;
+                		 k=search(root,key);
+                    	         if(k==1)
+                                	 printf("Data exists.");
+                		 else if(k==0)
+                    			printf("Data doesnt exist.");
 			
 			case 4:
 				exit(0);
@@ -235,10 +257,14 @@ Binary Search Tree
 5
 Inorder traversal of the given tree 
 20 30 60 70 80 	
+	
 Binary Search Tree
 1.Insert
 2.Delete
 3.Search
 4.Exit
 5.Print
+3 
+Enter data to be searched:30
+Data exists.	
 
