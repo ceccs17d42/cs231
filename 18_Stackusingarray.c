@@ -5,7 +5,6 @@
  * Roll no: 42
  */
  #include <stdio.h>
-
 int stack[100], n=100, top;
 
 int push(int data) {
