@@ -1,3 +1,9 @@
+/*
+ * 22
+ * Infix to Postfix Conversion
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
