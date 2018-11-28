@@ -1,3 +1,10 @@
+/*
+ * 31
+ * Circular Queue using Linked list
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 #define que struct queue
