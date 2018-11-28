@@ -1,3 +1,9 @@
+/*
+ * 21
+ * Representation of arithmetic expressions using linked list
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
