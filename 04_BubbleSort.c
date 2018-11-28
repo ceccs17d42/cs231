@@ -1,3 +1,9 @@
+/*
+ * 04
+ * Bubble Sort
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 
 void swap(int *x,int *y)
