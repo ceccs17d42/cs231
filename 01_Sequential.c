@@ -1,3 +1,9 @@
+/*
+ * 01
+ * Sequential Search
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include <stdio.h>
 
 int sequentialSearch(int array[], int size, int element) {
