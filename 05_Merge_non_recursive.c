@@ -1,6 +1,6 @@
 /*
  * 05
- * Merge: Non recursion
+ * Merge Sort: Non recursion
  * Name: Ritty Thomas
  * Roll no: 42
  */
