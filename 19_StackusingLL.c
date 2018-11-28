@@ -1,196 +1,166 @@
-#include<stdio.h>
-#include<stdlib.h>
-struct Node
-{
-   int data;
-   struct Node *next;
-}*top = NULL;
+#include <stdio.h>
+#include <stdlib.h>
 
-void #include <stdio.h>
+struct node {
+	int data;
+	struct node *next;
+}*TOP;
 
-int stack[100], n=100, top;
-
-int push(int data) {
-	if (top >= n-1) {
-		printf("Stack overflow\n");
-		return 0;
-	} else {
-		stack[++top] = data;
-		return 1;
+int deleteAll() {
+	struct node *ptr = TOP, *prevPtr;
+	while (ptr != NULL) {
+		prevPtr = ptr;
+		ptr = ptr->next;
+		free(prevPtr);
 	}
+	TOP->next = NULL;
+	return (0);
 }
-int pop() {
-	if (top == -1) {
-		printf("Stack underflow\n");
-		return 0;
-	} else {
-		printf("Popped element is %d\n", stack[top]);
-		top--;
-		return 1;
+struct node *newNode() {
+	struct node *newptr = malloc(sizeof(struct node));
+	if (newptr == NULL) {
+		printf("Memory overflow");
+		deleteAll();
+		exit(0);
 	}
+	return (newptr);
 }
-int display() {
-	int i;
-	printf("\n\nStack contents\n");
-	if (top == -1) {
-		printf("Empty stack\n");
+int deleteFirstNode() {
+	struct node *currentNode = TOP->next;
+	if (currentNode == NULL) {
+		printf("Empty stack.\nDeletion failed.\n");
 	} else {
-		for (i=top; i>=0; i--) {
-			printf("%d\n", stack[i]);
-		}
+		TOP->next = currentNode->next;
+		free(currentNode);
+	}
+	return (0);
+}
+int insertNodeFront(int data) {
+	struct node *newptr = newNode();
+	newptr->next = TOP->next;
+	newptr->data = data;
+	TOP->next = newptr;
+	return (0);
+}
+int printLinkedList() {
+	struct node *currentNode = TOP->next;
+	printf("\nLinked List\nTOP->");
+	while (currentNode != NULL) {
+		printf("%d\n", currentNode->data);
+		currentNode = currentNode->next;
 	}
 	printf("\n");
+	return (0);
 }
-int main() {
-	top = -1;
-	char ans;
-	int data;
+int showMenu() {
+	char choice='1';
+	int data, previousData, nextData;
 	do {
-		printf("\n\n\tStack Using array\n");
-		printf("1. Push\n2. Pop\n3. Display\n4. Exit\nEnter your choice : ");
-		scanf(" %c", &ans);
-		switch (ans) {
+		printf("\n\tLINKED LIST\n");
+		printf("1. Push\n");
+		printf("2. Pop\n");
+		printf("3. Print\n");
+		printf("4. Exit\n");
+		printf("Enter your choice : ");
+		scanf(" %c", &choice);
+		printf("\n");
+		switch (choice) {
 			case '1':
-				printf("Enter data to be pushed : ");
-				scanf(" %d", &data);
-				push(data);
+				printf("Enter new data : ");
+				scanf("%d", &data);
+				insertNodeFront(data);
 				break;
 			case '2':
-				pop();
+				deleteFirstNode();
 				break;
 			case '3':
-				display();
+				printLinkedList();
+				break;
+			case '4':
+				deleteAll();
+				exit(0);
 				break;
 			default:
-				printf("Invalid choice.\n");
+                printf("Invalid choice\n");
+				break;
 		}
-	} while (ans != '4');
-}push(int);
-void pop();
-void display();
+	} while(choice != '4');
+	return (0);
+}
+int main() {
+	// initialize Linked List
+	TOP = malloc(sizeof(struct node));
+	TOP->data = 0;
+	TOP->next = NULL;
+	// finished initializing Linked List
 
-void main()
-{
-   int choice, value;
-   printf("\n:: Stack using Linked List ::\n");
-   while(1){
-      printf("\n****** MENU ******\n");
-      printf("1. Push\n2. Pop\n3. Display\n4. Exit\n");
-      printf("Enter your choice: ");
-      scanf("%d",&choice);
-      switch(choice){
-	 case 1: printf("Enter the value to be insert: ");
-		 scanf("%d", &value);
-		 push(value);
-         display();
-		 break;
-	 case 2: pop(); break;
-	 case 3: display(); break;
-	 case 4: exit(0);
-	 default: printf("\nWrong selection!!! Please try again!!!\n");
-      }
-   }
+	showMenu();
+	deleteAll();
+	
+	return (0);
 }
-void push(int value)
-{
-   struct Node *newNode;
-   newNode = (struct Node*)malloc(sizeof(struct Node));
-   newNode->data = value;
-   if(top == NULL)
-      newNode->next = NULL;
-   else
-      newNode->next = top;
-   top = newNode;
-   printf("\nInsertion is Success!!!\n");
-}
-void pop()
-{
-   if(top == NULL)
-      printf("\nStack is Empty!!!\n");
-   else{
-      struct Node *temp = top;
-      printf("\nDeleted element: %d", temp->data);
-      top = temp->next;
-      free(temp);
-   }
-}
-void display()
-{
-   if(top == NULL)
-      printf("\nStack is Empty!!!\n");
-   else{
-      struct Node *temp = top;
-      while(temp->next != NULL){
-	 printf("%d--->",temp->data);
-	 temp = temp -> next;
-      }
-      printf("%d--->NULL",temp->data);
-   }
-}    
 OUTPUT:
 
-	Stack Using array
+	LINKED LIST
 1. Push
 2. Pop
-3. Display
+3. Print
 4. Exit
-Enter your choice : Enter data to be pushed : 
-
-	Stack Using array
+Enter your choice :1 
+Enter new data : 8
+	LINKED LIST
 1. Push
 2. Pop
-3. Display
+3. Print
 4. Exit
-Enter your choice : Enter data to be pushed : 
-
-	Stack Using array
+Enter your choice :1 
+Enter new data : 9
+	LINKED LIST
 1. Push
 2. Pop
-3. Display
+3. Print
 4. Exit
-Enter your choice : Enter data to be pushed : 
-
-	Stack Using array
+Enter your choice :1 
+Enter new data : 2
+	LINKED LIST
 1. Push
 2. Pop
-3. Display
+3. Print
 4. Exit
-Enter your choice : 
+Enter your choice :3 
 
-Stack contents
-2
+Linked List
+TOP->2
 9
 8
 
 
-
-	Stack Using array
+	LINKED LIST
 1. Push
 2. Pop
-3. Display
+3. Print
 4. Exit
-Enter your choice : Popped element is 2
+Enter your choice : 2
 
-
-	Stack Using array
+	LINKED LIST
 1. Push
 2. Pop
-3. Display
+3. Print
 4. Exit
-Enter your choice : Popped element is 9
+Enter your choice : 2
 
-
-	Stack Using array
+	LINKED LIST
 1. Push
 2. Pop
-3. Display
+3. Print
 4. Exit
-Enter your choice : Popped element is 8
+Enter your choice : 2
 
-
-	Stack Using array
+	LINKED LIST
 1. Push
 2. Pop
-3. Display
+3. Print
 4. Exit
-Enter your choice : Stack underflow
+Enter your choice : 2
+Empty stack.
+Deletion failed.
