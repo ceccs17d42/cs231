@@ -1,3 +1,9 @@
+/*
+ * 20
+ * Multiple Stack
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include<stdio.h>
 #include<stdlib.h>
 
