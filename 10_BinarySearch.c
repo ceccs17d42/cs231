@@ -1,3 +1,11 @@
+/*
+ * 10
+ * Binary Search
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
+
+
 #include <stdio.h>
 
 int selectionSort(int array[], int size) {
