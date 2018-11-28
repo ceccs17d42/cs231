@@ -1,3 +1,9 @@
+/*
+ * 12 & 14b
+ * Doubly LL - insert at begin, at end, after a value searched & Doubly LL - first, last, search and delete
+ * Name: Ritty Thomas
+ * Roll no: 42
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
